@@ -1,0 +1,30 @@
+.left{background:rgba(0,0,0,0.30);padding:12px 25px;border-radius:3px}
+.serversboard{margin:30px 0;font-size:14px;color:#fff}
+.left{background:rgba(0,0,0,0.30);padding:12px 25px;border-radius:3px}
+.serversboard__titles{background:rgba(9,10,11,0.70);text-transform:uppercase;border-radius:0;font-size:11px;border-bottom:1px solid #111215;word-break:break-all;display:flex;padding:10px!important;align-items:center;color:#fff}
+.serversboard__title{text-align:center;flex:2}
+.serversboard__row{border-bottom:1px solid #121416;background:#090a0b;border-radius:4px 0 2px 0;display:flex}
+.serversboard__things{position:relative;display:flex;justify-content:center;flex:2;text-align:center;padding:20px 0}
+.serversboard__things:nth-of-type(1){flex:0 0 100px;justify-content:space-around}
+.serversboard__row--name span,.serversboard__row--ip span{padding:10px;border-radius:4px}
+.serversboard__thing--name-cs16{background-color:#303c5e!important;white-space:nowrap}
+.serversboard__thing--name-csgo{background-color:#d46200!important;white-space:nowrap}
+.serversboard__thing--name-ts3{background-color:#36df60bf!important;white-space:nowrap}
+.serversboard__row--buttons span a:before{content:'';background-position:-38px;height:17px;width:22px;display:inline-block;color:#fff}
+.serversboard__row--buttons span a:after{content:'';position:absolute;background:rgba(0,0,0,0.1);top:0;bottom:0;right:-50%;width:100%}
+.serversboard__row--buttons span a{background:#24262c;border-top:1px solid #363942;height:30px;width:30px;display:block;margin:0 5px;border-radius:3px;transition:.3s ease-in-out all;display:flex;justify-content:center;align-items:center;padding-top:1px;box-sizing:border-box;position:relative;overflow:hidden}
+.serversboard__row--buttons a:before{font-weight:700;font-family:"Font Awesome 5 Free"}
+@media screen and (max-width: 1150px) {
+.serversboard__titles{display:none}
+.serversboard__row{flex-wrap:wrap}
+.serversboard__things:nth-of-type(1){flex:1!important;justify-content:center}
+.serversboard__things{flex-basis:100%;flex-grow:0!important;flex-shrink:0!important;padding:10px!important}
+.serversboard__thing{margin-right:0}
+}
+.last5BansTable .serversboard__title:last-child{flex:1}
+.last5BansTable .serversboard__things:nth-of-type(1){flex:2}
+@media (min-width:1151px){.last5BansTable .serversboard__things.serversboard__row--buttons:last-child{flex:1}}
+.serversboard__row--name span{background:#22242a;padding:10px;border-radius:4px}
+.serversboard__row--ip{transition:transform .2s ease-out;cursor:pointer}
+.serversboard__row--buttons span.banInfo a:before{background:none;content:'\f129';font-weight:700;font-family:"Font Awesome 5 Free"}
+.last5BansTable__banned{background:#b1031b!important}
