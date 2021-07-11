@@ -5,6 +5,7 @@ Podstawowe stylowanie zawarte jest w pliku styles.txt dołączonym w paczce z pl
 
 # Instalacja
 1. Edytuj lastbansonforum.php
+
 Około 133. linijki są 4 puste stringi, w które należy podać dane do połączenia z bazą danych amxbansa.
 
 ``` 
